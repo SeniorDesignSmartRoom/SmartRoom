@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html style="background-color:white;">
+<center>
+<head>
+<META HTTP-EQUIV="refresh" CONTENT="8">
+<meta charset= "utf-8">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Logo_of_The_Catholic_University_of_America.svg/1200px-Logo_of_The_Catholic_University_of_America.svg.png" height="80" width="75">
+<font size = "10" color="red"><style="font-family:verdana;">The Smart Room</font>
+By: Logan Pascoal, Victoria Lombardo, Justin Cassidy, Paul Ascunsion.
+<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<style>
+a.class1:link, a.class1:visited {
+    background-color: #FFD700;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a.class1:hover, a.class1:active {
+    background-color: gold;
+}
+
+a.class2:link, a.class2:visited {
+    background-color:#00008B ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a.class2:hover, a.class2:active {
+    background-color: blue;
+}
+</style>
+</head>
+<table width= "100%" border = "0">
+<tr>
+<td background= "https://s3.envato.com/files/89574175/StageLightsFlashingPreview.jpg" width="150">
+<center>
+<pre id= "SECURITY"</pre>
+
+<ul id="list"></ul>
+
+<font face="Comic Sans" size="7" color="Gold">Lights</font><br />
+
+<a href='linkhref.html' id='mylink' class='class1'>ON</a>
+
+<script type="text/javascript">
+
+var myLink = document.getElementById('mylink');
+
+myLink.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "C://Users/logan/application.js."; 
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+	location.reload();
+}
+
+</script>
+
+<a href='default.asp' id='mylinkoff' class='class1'>OFF</a>
+
+<script type="text/javascript">
+
+var myLinkoff = document.getElementById('mylinkoff');
+
+myLinkoff.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "C://Users/logan/turnoff.js."; 
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+}
+
+
+</script>
+</center>
+</td>
+<td background= "http://www.itnewsbuzz.com/wp-content/uploads/2017/12/security.jpg" width="100">
+<center>
+<font face="Comic Sans" size="7" color="black">Security System</font><br />
+<a href='default.asp' id='Security' class='class2'>Check Security</a>
+<script type="text/javascript">
+
+var Security = document.getElementById('Security');
+
+Security.onclick = function(){
+	
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "C://Users/logan/app.js."; 
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+}
+
+
+</script>
+<a href="http://108.51.84.29:8080/stream" class='class2'>Check Live Feed</a>.
+</center>
+</td>
+</tr>
+</table>
+</body>
+</center>
+</html>
